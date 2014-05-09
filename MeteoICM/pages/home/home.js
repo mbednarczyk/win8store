@@ -29,6 +29,7 @@
             };
 
             var wojewodztwa = [{
+                miasto: 'gdansk',
                 woj: 'pomorskie',
                 left: 173,
                 top: 1,
@@ -143,7 +144,13 @@
                         //output.innerHTML += "<p> klikles wojewodztwo: " + woj.woj + "</p>";
                         var result = document.getElementById("woj");
                         result.innerHTML = woj.woj;
-                        console.log(woj.woj);
+                        //console.log(woj.woj);
+                        var woje = woj.woj;
+                        var myData = {
+                                firstName: woje
+
+                        };
+                        WinJS.Navigation.navigate('/pages/met/met.html', myData);
                     }
 
                 }

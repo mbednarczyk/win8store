@@ -13,3 +13,18 @@ c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\qualifie
 c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\qualifiers.txt.intermediate
 c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\ProjectArchitectures.txt
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\ReverseMap\resources.pri
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\AppxManifest.xml
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\MeteoICM.build.appxrecipe
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\priconfig.xml
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\priconfig.xml.intermediate
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\layout.resfiles
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\layout.resfiles.intermediate
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\resources.resfiles
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\resources.resfiles.intermediate
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\pri.resfiles
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\pri.resfiles.intermediate
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\qualifiers.txt
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Debug\ProjectArchitectures.txt

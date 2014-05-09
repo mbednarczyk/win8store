@@ -8,56 +8,65 @@
     <PackageIdentityName>d01da8ed-9f42-4ccb-b8f6-376464ddd969</PackageIdentityName>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\pages\home\home.css">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.css">
+      <PackagePath>pages\met\met.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\wojewodztwa.png">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\wojewodztwa.png">
       <PackagePath>images\wojewodztwa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\js\jquery-2.1.1.min.js">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\jquery-2.1.1.min.js">
       <PackagePath>js\jquery-2.1.1.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\js\navigator.js">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\pages\home\home.js">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\pages\home\home.html">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.js">
+      <PackagePath>pages\met\met.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\default.html">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.html">
+      <PackagePath>pages\met\met.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
