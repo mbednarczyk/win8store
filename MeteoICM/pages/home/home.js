@@ -127,13 +127,14 @@
             }];
 
             $('#mapa').click(function (e) {
-                e.preventDefault();
-                var offset_t = $(this).offset().top - $(window).scrollTop();
-                var offset_l = $(this).offset().left - $(window).scrollLeft();
+                console.log("CLICK ON MAP");
+                ////e.preventDefault();
+                //var offset_t = $(this).offset().top - $(window).scrollTop();
+                //var offset_l = $(this).offset().left - $(window).scrollLeft();
 
-                var left = Math.round((e.clientX - offset_l));
-                var top = Math.round((e.clientY - offset_t));
-                test(left, top);
+                //var left = Math.round((e.clientX - offset_l));
+                //var top = Math.round((e.clientY - offset_t));
+                //test(left, top);
                 //   alert("Left: " + left + " Top: " + top);
 
 
