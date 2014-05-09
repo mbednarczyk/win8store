@@ -127,17 +127,12 @@
             }];
 
             $('#mapa').click(function (e) {
-                console.log("CLICK ON MAP");
-                ////e.preventDefault();
                 var offset_t = $(this).offset().top - $(window).scrollTop();
                 var offset_l = $(this).offset().left - $(window).scrollLeft();
 
                 var left = Math.round((e.clientX - offset_l));
                 var top = Math.round((e.clientY - offset_t));
                 test(left, top);
-                //   alert("Left: " + left + " Top: " + top);
-
-
             });
 
             var test = function (left, top) {
@@ -146,6 +141,8 @@
                         var woj = wojewodztwa[i];
                         
                         //output.innerHTML += "<p> klikles wojewodztwo: " + woj.woj + "</p>";
+                        var result = document.getElementById("woj");
+                        result.innerHTML = woj.woj;
                         console.log(woj.woj);
                     }
 
