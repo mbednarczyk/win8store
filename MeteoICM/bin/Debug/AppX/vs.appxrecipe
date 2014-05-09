@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAREKPC</Machine>
+    <WindowsUser>Marek</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d01da8ed-9f42-4ccb-b8f6-376464ddd969</PackageIdentityName>
+    <RegisteredManifestChecksum>B75C25D8FC721F2FDC0BABF6FE74EE9A8141B093273D5EEB9C6CA8530CAD304B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d01da8ed-9f42-4ccb-b8f6-376464ddd969_1.0.0.0_neutral__gad32afkww8wy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d01da8ed-9f42-4ccb-b8f6-376464ddd969_gad32afkww8wy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d01da8ed-9f42-4ccb-b8f6-376464ddd969</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Marek</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-09T16:03:32.661</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-05-09T15:22:32.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2014-05-09T15:22:32.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\images\wojewodztwa.png">
+      <PackagePath>images\wojewodztwa.png</PackagePath>
+      <Modified>2014-04-16T03:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-05-09T15:22:32.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\js\jquery-2.1.1.min.js">
+      <PackagePath>js\jquery-2.1.1.min.js</PackagePath>
+      <Modified>2014-05-09T16:02:43.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2014-05-09T15:22:32.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2014-05-09T16:27:54.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2014-05-09T16:16:05.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-05-09T16:04:16.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\documents\visual studio 2013\Projects\MeteoICM\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-05-09T16:03:32.279</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

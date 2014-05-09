@@ -1,0 +1,15 @@
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bin\Debug\ReverseMap\resources.pri
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bin\Debug\AppxManifest.xml
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bin\Debug\MeteoICM.build.appxrecipe
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\priconfig.xml
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\priconfig.xml.intermediate
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\layout.resfiles
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\layout.resfiles.intermediate
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\resources.resfiles
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\resources.resfiles.intermediate
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\pri.resfiles
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\pri.resfiles.intermediate
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\qualifiers.txt
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\qualifiers.txt.intermediate
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\marek\documents\visual studio 2013\Projects\MeteoICM\bld\Debug\ProjectArchitectures.txt
