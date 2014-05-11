@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Machine>MAREKPC</Machine>
     <WindowsUser>Marek</WindowsUser>
-    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>d01da8ed-9f42-4ccb-b8f6-376464ddd969</PackageIdentityName>
     <RegisteredManifestChecksum>012880471F1B6A8761457E3DC1AFCA00B9CFE8AC73A825FCA64CF0A96CDC2B62</RegisteredManifestChecksum>
@@ -14,10 +14,10 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-05-11T16:37:29.635</Modified>
+      <Modified>2014-05-11T13:35:33.621</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -32,10 +32,6 @@
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.css">
       <PackagePath>pages\met\met.css</PackagePath>
       <Modified>2014-05-09T17:14:50.053</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.css">
-      <PackagePath>pages\settings\legend\legend.css</PackagePath>
-      <Modified>2014-05-11T16:42:59.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\legendaUM.png">
       <PackagePath>images\legendaUM.png</PackagePath>
@@ -67,7 +63,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-05-11T16:37:25.310</Modified>
+      <Modified>2014-05-09T15:22:32.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\jquery-2.1.1.min.js">
       <PackagePath>js\jquery-2.1.1.min.js</PackagePath>
@@ -85,10 +81,6 @@
       <PackagePath>pages\met\met.js</PackagePath>
       <Modified>2014-05-11T13:24:04.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.js">
-      <PackagePath>pages\settings\legend\legend.js</PackagePath>
-      <Modified>2014-05-11T16:44:21.011</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
       <Modified>2014-05-11T12:35:49.682</Modified>
@@ -101,13 +93,9 @@
       <PackagePath>pages\met\met.html</PackagePath>
       <Modified>2014-05-10T15:50:21.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.html">
-      <PackagePath>pages\settings\legend\legend.html</PackagePath>
-      <Modified>2014-05-11T16:41:07.219</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-05-11T16:37:29.427</Modified>
+      <Modified>2014-05-11T13:35:33.485</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -23,6 +23,9 @@
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.css">
       <PackagePath>pages\met\met.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.css">
+      <PackagePath>pages\settings\legend\legend.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\legendaUM.png">
       <PackagePath>images\legendaUM.png</PackagePath>
     </AppxPackagedFile>
@@ -60,6 +63,9 @@
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.js">
       <PackagePath>pages\met\met.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.js">
+      <PackagePath>pages\settings\legend\legend.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
     </AppxPackagedFile>
@@ -68,6 +74,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.html">
       <PackagePath>pages\met\met.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.html">
+      <PackagePath>pages\settings\legend\legend.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

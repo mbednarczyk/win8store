@@ -72,6 +72,9 @@
     <Content Include="pages\met\met.css" />
     <Content Include="pages\met\met.html" />
     <Content Include="pages\met\met.js" />
+    <Content Include="pages\settings\legend\legend.css" />
+    <Content Include="pages\settings\legend\legend.html" />
+    <Content Include="pages\settings\legend\legend.js" />
     <None Include="MeteoICM_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
