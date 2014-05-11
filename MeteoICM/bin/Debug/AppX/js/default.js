@@ -46,7 +46,7 @@
 
     app.onsettings = function (e) {
         e.detail.applicationcommands = {
-            "clear": {
+            "legend": {
                 href: "/pages/settings/legend/legend.html",
                 title: "Pokaż legende"
             },
