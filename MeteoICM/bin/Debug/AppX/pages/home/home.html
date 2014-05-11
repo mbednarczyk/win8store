@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
     <meta charset="utf-8" />
     <title>homePage</title>
@@ -22,10 +22,14 @@
                 <span class="pagetitle">Welcome to MeteoICM!</span>
             </h1>
         </header>
-       
+
 
         <section aria-label="Main content" role="main">
-            <button id="calcButton">Calculate</button>
+             
+            <div id="kooo" style="position: absolute; right: 39px; bottom: 39px; left: 761px; top: 157px;">
+                <x-ms-webview id="webview" style="width: 565px; height: 565px;">
+                </x-ms-webview>
+            </div>
             <div id="resultOutput"></div>
             <div id="woj"></div>
         </section>
