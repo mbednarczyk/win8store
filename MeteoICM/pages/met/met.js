@@ -8,10 +8,20 @@
         // populates the page elements with the app's data.
         ready: function (element, options) {
             // TODO: Initialize the page here.
-            console.log(options.firstName);
+            var applicationData = Windows.Storage.ApplicationData.current;
+            var roamingSettings = applicationData.roamingSettings;
+            var rom = roamingSettings.values["legenda"];
+            console.log(rom);
             var mia = options.miasto;
             var row = options.row;
             var col = options.col;
+
+            var leg = document.getElementById("legenda");
+            var urlobrazka = "<img src='http://www.meteo.pl/um/metco/leg_um_pl_20120615.png'>";
+            var safe = window.toStaticHTML(urlobrazka);
+            if (rom) {
+                leg.innerHTML += safe;
+            }
 
             //obliczanie daty
             var mydate = new Date();

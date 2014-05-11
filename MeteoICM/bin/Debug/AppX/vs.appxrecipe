@@ -67,7 +67,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-05-11T16:37:25.310</Modified>
+      <Modified>2014-05-11T16:57:27.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\jquery-2.1.1.min.js">
       <PackagePath>js\jquery-2.1.1.min.js</PackagePath>
@@ -83,11 +83,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.js">
       <PackagePath>pages\met\met.js</PackagePath>
-      <Modified>2014-05-11T13:24:04.506</Modified>
+      <Modified>2014-05-11T17:13:54.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.js">
       <PackagePath>pages\settings\legend\legend.js</PackagePath>
-      <Modified>2014-05-11T16:44:21.011</Modified>
+      <Modified>2014-05-11T17:07:53.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
@@ -99,11 +99,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.html">
       <PackagePath>pages\met\met.html</PackagePath>
-      <Modified>2014-05-10T15:50:21.209</Modified>
+      <Modified>2014-05-11T17:10:32.817</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.html">
       <PackagePath>pages\settings\legend\legend.html</PackagePath>
-      <Modified>2014-05-11T16:41:07.219</Modified>
+      <Modified>2014-05-11T17:02:34.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
