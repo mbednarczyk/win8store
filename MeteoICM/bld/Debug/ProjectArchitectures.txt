@@ -1,1 +1,1 @@
-D:\win8store\MeteoICM\MeteoICM.jsproj;neutral
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\MeteoICM.jsproj;neutral

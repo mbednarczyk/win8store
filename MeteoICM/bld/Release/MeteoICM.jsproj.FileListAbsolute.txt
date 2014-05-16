@@ -1,4 +1,3 @@
-C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\ReverseMap\resources.pri
 C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\AppxManifest.xml
 C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\MeteoICM.build.appxrecipe
 C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Release\priconfig.xml
@@ -13,3 +12,4 @@ C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Release\qualifiers.txt
 C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Release\qualifiers.txt.intermediate
 C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Release\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bld\Release\ProjectArchitectures.txt
+C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\ReverseMap\resources.pri

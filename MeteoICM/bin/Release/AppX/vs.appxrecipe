@@ -5,19 +5,19 @@
     <WindowsUser>Marek</WindowsUser>
     <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>d01da8ed-9f42-4ccb-b8f6-376464ddd969</PackageIdentityName>
-    <RegisteredManifestChecksum>012880471F1B6A8761457E3DC1AFCA00B9CFE8AC73A825FCA64CF0A96CDC2B62</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>d01da8ed-9f42-4ccb-b8f6-376464ddd969_1.0.0.0_neutral__gad32afkww8wy</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>d01da8ed-9f42-4ccb-b8f6-376464ddd969_gad32afkww8wy!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>d01da8ed-9f42-4ccb-b8f6-376464ddd969</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Marek</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <PackageIdentityName>1266beny.MeteoICM</PackageIdentityName>
+    <RegisteredManifestChecksum>FE680A3EF9B84724CDCE2CCC82B761D4457689670E8A93DD9CC857EA21722015</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1266beny.MeteoICM_1.1.0.1_neutral__182g6g8qt0a46</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1266beny.MeteoICM_182g6g8qt0a46!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1266beny.MeteoICM</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=B50FF6FE-BDF7-4101-92E9-5F685B829B0F</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-05-11T13:35:33.621</Modified>
+      <Modified>2014-05-11T18:10:59.702</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -33,6 +33,30 @@
       <PackagePath>pages\met\met.css</PackagePath>
       <Modified>2014-05-09T17:14:50.053</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\about.css">
+      <PackagePath>pages\settings\about.css</PackagePath>
+      <Modified>2014-05-11T17:27:43.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.css">
+      <PackagePath>pages\settings\legend\legend.css</PackagePath>
+      <Modified>2014-05-11T16:42:59.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\150x150.png">
+      <PackagePath>images\150x150.png</PackagePath>
+      <Modified>2014-05-11T17:45:14.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\30x30.png">
+      <PackagePath>images\30x30.png</PackagePath>
+      <Modified>2014-05-11T17:45:25.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\50x50.png">
+      <PackagePath>images\50x50.png</PackagePath>
+      <Modified>2014-05-11T17:45:28.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\620x300.png">
+      <PackagePath>images\620x300.png</PackagePath>
+      <Modified>2014-05-11T17:45:33.724</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\legendaUM.png">
       <PackagePath>images\legendaUM.png</PackagePath>
       <Modified>2014-05-10T15:30:01.707</Modified>
@@ -40,22 +64,22 @@
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T20:19:32.000</Modified>
+      <Modified>2014-05-11T17:45:14.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T20:19:32.000</Modified>
+      <Modified>2014-05-11T17:45:25.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T20:19:32.000</Modified>
+      <Modified>2014-05-11T17:45:33.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-21T20:19:32.000</Modified>
+      <Modified>2014-05-11T17:45:28.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\images\wojewodztwa.png">
       <PackagePath>images\wojewodztwa.png</PackagePath>
@@ -63,7 +87,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-05-09T15:22:32.458</Modified>
+      <Modified>2014-05-11T17:26:20.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\js\jquery-2.1.1.min.js">
       <PackagePath>js\jquery-2.1.1.min.js</PackagePath>
@@ -79,11 +103,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.js">
       <PackagePath>pages\met\met.js</PackagePath>
-      <Modified>2014-05-11T13:24:04.506</Modified>
+      <Modified>2014-05-11T17:13:54.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\about.js">
+      <PackagePath>pages\settings\about.js</PackagePath>
+      <Modified>2014-05-11T17:28:10.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.js">
+      <PackagePath>pages\settings\legend\legend.js</PackagePath>
+      <Modified>2014-05-11T17:21:42.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2014-05-11T12:35:49.682</Modified>
+      <Modified>2014-05-11T17:55:49.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\default.html">
       <PackagePath>default.html</PackagePath>
@@ -91,11 +123,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\met\met.html">
       <PackagePath>pages\met\met.html</PackagePath>
-      <Modified>2014-05-10T15:50:21.209</Modified>
+      <Modified>2014-05-11T17:10:32.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\about.html">
+      <PackagePath>pages\settings\about.html</PackagePath>
+      <Modified>2014-05-11T17:28:57.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\pages\settings\legend\legend.html">
+      <PackagePath>pages\settings\legend\legend.html</PackagePath>
+      <Modified>2014-05-11T17:02:34.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Marek\Desktop\win8store\win8store\MeteoICM\bin\Release\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-05-11T13:35:33.485</Modified>
+      <Modified>2014-05-11T18:10:59.588</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

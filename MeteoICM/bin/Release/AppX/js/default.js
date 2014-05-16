@@ -44,5 +44,20 @@
         app.sessionState.history = nav.history;
     };
 
+    app.onsettings = function (e) {
+        e.detail.applicationcommands = {
+            "legend": {
+                href: "/pages/settings/legend/legend.html",
+                title: "Pokaż legende"
+            },
+            "about": {
+                href: "/pages/settings/about.html",
+                title: "Privacy policy"
+
+            }
+        }
+        WinJS.UI.SettingsFlyout.populateSettings(e);
+    }
+
     app.start();
 })();

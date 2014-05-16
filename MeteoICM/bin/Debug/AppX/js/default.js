@@ -50,9 +50,10 @@
                 href: "/pages/settings/legend/legend.html",
                 title: "Pokaż legende"
             },
-            "data": {
-                href: "/pages/settings/data/data.html",
-                title: "Wybierz model"
+            "about": {
+                href: "/pages/settings/about.html",
+                title: "Privacy policy"
+
             }
         }
         WinJS.UI.SettingsFlyout.populateSettings(e);

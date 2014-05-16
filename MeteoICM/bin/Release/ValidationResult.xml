@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="3.3" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="beny" OSVERSION="6.3.9600.0" OS="Microsoft Windows 8.1 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1045" VALIDATION_TYPE="UI" ReportGenerationTime="2014-05-11 19:57:45" ID="d36df61b564e0a43684ac566191643cf">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Test czystej instalacji odwracalnej" RATIONALE="Czysta, odwracalna instalacja pozwala użytkownikom na skuteczne zarządzanie aplikacjami (ich wdrażanie i usuwanie) w systemie." />
+    <REQUIREMENT NUMBER="2" TITLE="Test instalacji w poprawnych folderach" RATIONALE="System Windows udostępnia konkretne lokalizacje w systemie plików służące do przechowywania składników oprogramowania, udostępnianych danych aplikacji oraz danych aplikacji specyficznych dla użytkownika." />
+    <REQUIREMENT NUMBER="3" TITLE="Test pliku podpisanego cyfrowo" RATIONALE="Podpis cyfrowy Authenticode pozwala zagwarantować użytkownikom autentyczność danego oprogramowania oraz umożliwia sprawdzenie, czy określony plik został zmodyfikowany, na przykład w wyniku zainfekowania wirusem." />
+    <REQUIREMENT NUMBER="4" TITLE="Test obsługi wersji x64 systemu Windows" RATIONALE="Aby zachować zgodność z 64-bitowymi wersjami systemu Windows, aplikacje muszą w sposób macierzysty obsługiwać platformę 64-bitowych lub co najmniej 32-bitowych aplikacji systemu Windows w celu zagwarantowania bezproblemowego działania w środowisku 64-bitowym." />
+    <REQUIREMENT NUMBER="5" TITLE="Test sprawdzania wersji systemu operacyjnego" RATIONALE="Aplikacje nie mogą wykonywać operacji sprawdzania wersji przy użyciu operatora równości (== 5.1). Jeśli jest wymagana określona funkcja, należy sprawdzić, czy jest ona dostępna. Jeśli jest potrzebny system Windows XP, należy sprawdzić obecność systemu Windows XP lub nowszego (&gt;= 5.1), dzięki czemu kod realizujący wykrywanie będzie działać również w przyszłych wersjach systemu Windows. Instalatory sterowników i moduły odinstalowywania nie mogą sprawdzać wersji systemu operacyjnego." />
+    <REQUIREMENT NUMBER="6" TITLE="Test kontroli konta użytkownika" RATIONALE="Większość aplikacji nie wymaga uprawnień administratora w czasie wykonywania i powinna działać prawidłowo na koncie użytkownika standardowego. Aplikacje systemu Windows muszą mieć określony manifest (wbudowany lub zewnętrzny) definiujący poziom ich wykonywania i umożliwiający systemowi operacyjnemu ustalenie uprawnień wymaganych do uruchomienia aplikacji." />
+    <REQUIREMENT NUMBER="7" TITLE="Zachowanie zgodności z komunikatami menedżera ponownego uruchamiania" RATIONALE="W przypadku krytycznego zamknięcia aplikacje zwracające wartość FALSE (FAŁSZ) w odpowiedzi na komunikat WM_QUERYENDSESSION otrzymują komunikat WM_ENDSESSION i zostają zamknięte, natomiast te, które przekraczają limit czasu odpowiedzi na komunikat WM_QUERYENDSESSION, zostają zakończone." />
+    <REQUIREMENT NUMBER="8" TITLE="Test trybu awaryjnego" RATIONALE="W trybie awaryjnym większość sterowników i usług, które nie zostały wstępnie zainstalowane wraz z systemem Windows, nie jest domyślnie uruchamiana. Powinny one pozostać wyłączone, o ile nie są wymagane do realizacji podstawowych działań systemu bądź też dla celów diagnostyki i odzyskiwania." />
+    <REQUIREMENT NUMBER="9" TITLE="Test sesji wielu użytkowników" RATIONALE="Użytkownicy systemu Windows powinni mieć możliwość uruchamiania współbieżnych sesji bez powodowania konfliktów i zakłóceń. Aplikacje muszą gwarantować, że uruchomienie wielu sesji, zarówno lokalnych, jak i zdalnych, nie ma wpływu na ich normalne funkcjonowanie. Ustawienia aplikacji i pliki danych nie powinny być utrwalane między wieloma użytkownikami. Obszar prywatności i preferencji użytkownika powinien pozostawać odizolowany w ramach sesji danego użytkownika." />
+    <REQUIREMENT NUMBER="10" TITLE="Test awarii i zawieszania się systemu" RATIONALE="Błędy aplikacji, takie jak awarie czy zawieszenia, znacznie utrudniają pracę użytkowników i stanowią źródło ich frustracji. Wyeliminowanie tych błędów zwiększa stabilność i niezawodność aplikacji oraz podnosi ogólny komfort jej użytkowania.">
+      <TEST INDEX="47" NAME="Testy uruchamiania aplikacji" DESCRIPTION="Testy uruchamiania aplikacji." EXECUTIONTIME="00h:00m:32s.10ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="21" NAME="Awarie i zawieszanie się systemu" DESCRIPTION="Podczas testowania komponenty nie mogą się zawieszać ani ulegać awarii." EXECUTIONTIME="00h:00m:05s.91ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="Test zgodności i odporności" RATIONALE="W momencie wykrycia przez system Windows niezgodnego sposobu działania aplikacji jest stosowana poprawka zgodności wymuszająca prawidłowe działanie aplikacji i zapewniająca użytkownikowi możliwość wykonywania właściwych czynności. Aplikacje nie powinny polegać na tym mechanizmie, ponieważ jest on stosowany jedynie w celu zapewnienia prawidłowego działania starszych aplikacji w systemie Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="Test zgodności pakietu" RATIONALE="Manifest pakietu nie zawierał co najmniej jednego wymaganego atrybutu.">
+      <TEST INDEX="31" NAME="Manifest aplikacji" DESCRIPTION="Manifest aplikacji musi zawierać prawidłowe wpisy dla wszystkich wymaganych pól." EXECUTIONTIME="00h:00m:05s.94ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Test najlepszych rozwiązań w zakresie zabezpieczeń systemu Windows" RATIONALE="Aplikacja nie powinna zmieniać domyślnych ustawień zabezpieczeń systemu Windows." />
+    <REQUIREMENT NUMBER="14" TITLE="Test funkcji zabezpieczeń systemu Windows" RATIONALE="Aplikacje muszą korzystać z funkcji zabezpieczeń systemu Windows.">
+      <TEST INDEX="33" NAME="Analizator binarny" DESCRIPTION="Analiza funkcji zabezpieczeń włączonych dla plików binarnych." EXECUTIONTIME="00h:00m:03s.27ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="70" NAME="Analizator wykluczonych plików" DESCRIPTION="Analiza aplikacji w celu wykrycia znanych niezabezpieczonych plików" EXECUTIONTIME="00h:00m:04s.64ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="Podpisywanie kodu prywatnego" DESCRIPTION="Aplikacja nie powinna zawierać pakietu plików kluczy podpisywania kodu prywatnego." EXECUTIONTIME="00h:00m:04s.98ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Test obsługiwanych interfejsów API" RATIONALE="Aplikacja powinna się odwoływać jedynie do interfejsów API dozwolonych przez zestaw SDK systemu Windows dla aplikacji Sklepu Windows.">
+      <TEST INDEX="38" NAME="Obsługiwane interfejsy API" DESCRIPTION="Aplikacja sklepu Windows może korzystać jedynie z obsługiwanych interfejsów API platformy." EXECUTIONTIME="00h:00m:04s.49ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Test wydajności" RATIONALE="Aplikacja powinna być uruchamiana i zatrzymywana szybko i w sposób zapewniający odpowiednie reagowanie przy jednoczesnym umiarkowanym użyciu zasobów systemowych (procesora, operacji We/Wy na plikach, pamięci itp.) w celu umożliwienia szybkiego przełączania i wielozadaniowości między aplikacjami, które nie były wcześniej otwarte.">
+      <TEST INDEX="50" NAME="Generowanie bytecode" DESCRIPTION="Generowanie bytecode powinno przebiegać poprawnie w przypadku pakietów zawierających aplikację HTML5 Sklepu Windows." EXECUTIONTIME="00h:00m:03s.50ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="Zoptymalizowane odwołania do powiązań" DESCRIPTION="W przypadku korzystania z powiązań należy parametr WinJS.Binding.optimizeBindingReferences ustawić na wartość „prawda”, aby zoptymalizować użycie pamięci." EXECUTIONTIME="00h:00m:04s.31ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="Test zasobów manifestu aplikacji" RATIONALE="Manifest pakietu aplikacji powinien zawierać prawidłowe zasoby zdefiniowane w pliku resources.pri, zgodnie ze specyfikacją pakowania aplikacji i schematem manifestu aplikacji.">
+      <TEST INDEX="45" NAME="Sprawdzanie poprawności zasobów aplikacji" DESCRIPTION="Pakiet powinien zawierać prawidłowe zasoby zdefiniowane w pliku resources.pri." EXECUTIONTIME="00h:00m:00s.69ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="Weryfikacja znakowania" DESCRIPTION="W aplikacja nie powinny być używane obrazy domyślne zawarte w przykładach zestawu SDK systemu Windows lub w programie Visual Studio." EXECUTIONTIME="00h:00m:05s.96ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Test konfiguracji debugowania" RATIONALE="Aplikacja nie powinna instalować żadnych plików binarnych służących do debugowania.">
+      <TEST INDEX="46" NAME="Konfiguracja debugowania" DESCRIPTION="Aplikacja nie powinna instalować żadnych plików binarnych służących do debugowania." EXECUTIONTIME="00h:00m:06s.22ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="Test kodowania pliku" RATIONALE="Pliki pakietów zawierających aplikacje HTML5 Sklepu Windows muszą być odpowiednio zakodowane.">
+      <TEST INDEX="49" NAME="Kodowanie pliku UTF-8" DESCRIPTION="Pliki pakietów zawierających aplikacje HTML5 Sklepu Windows muszą być odpowiednio zakodowane." EXECUTIONTIME="00h:00m:06s.24ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Test funkcji Direct3D" RATIONALE="Aplikacje powinny poprawnie używać funkcji Direct3D.">
+      <TEST INDEX="51" NAME="Obsługa wersji funkcji Direct3D" DESCRIPTION="Aplikacje muszą prawidłowo wyświetlać zawartość na sprzęcie obsługującym funkcję Direct3D w wersji 9.1." EXECUTIONTIME="00h:00m:06s.82ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="71" NAME="Funkcja Trim Direct3D po wstrzymaniu" DESCRIPTION="Aplikacje muszą wywołać funkcję IDXGIDevice3::Trim() na tworzonych przez siebie urządzeniach Direct3D podczas obsługi powiadomień o wstrzymaniu." EXECUTIONTIME="00h:00m:01s.24ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="Test zadeklarowanych możliwości aplikacji" RATIONALE="Pakiety deklarujące specjalne możliwości będą musiały je potwierdzić w procesie dodawania.">
+      <TEST INDEX="52" NAME="Możliwości specjalne" DESCRIPTION="Pakiety deklarujące specjalne możliwości będą musiały je potwierdzić w procesie dodawania." EXECUTIONTIME="00h:00m:02s.37ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Weryfikacja metadanych środowiska wykonawczego systemu Windows" RATIONALE="Metadane źródeł wszystkich generacji muszą być zgodne i spójne.">
+      <TEST INDEX="56" NAME="Test atrybutu ExclusiveTo" DESCRIPTION="W klasie nie można zaimplementować interfejsu oznaczonego atrybutem ExclusiveTo w odniesieniu do innej klasy." EXECUTIONTIME="00h:00m:02s.72ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="Test lokalizacji typu" DESCRIPTION="Typy muszą być zdefiniowane w pliku metadanych za pomocą najdłuższej odpowiadającej im przestrzeni nazw." EXECUTIONTIME="00h:00m:01s.26ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="Test uwzględniania wielkości liter w nazwie typu" DESCRIPTION="Nazwy przestrzeni nazw i typów nie mogą się różnić jedynie wielkością liter." EXECUTIONTIME="00h:00m:01s.28ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="Test poprawności nazwy typu" DESCRIPTION="Przestrzeń nazw systemu Windows może zawierać tylko typy systemowe. Globalna przestrzeń nazw nie może zawierać żadnych typów." EXECUTIONTIME="00h:00m:01s.45ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="Test ogólnej poprawności metadanych" DESCRIPTION="Pliki metadanych muszą spełniać różne wymagania, aby mogły zostać uznane za poprawne." EXECUTIONTIME="00h:00m:02s.90ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="Test właściwości" DESCRIPTION="Nie można używać właściwości tylko do zapisu ani indeksatora. Typ odpowiednich metod pobierających i ustawiających musi być zgodny." EXECUTIONTIME="00h:00m:01s.45ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="25" TITLE="Test poprawności pakietu" RATIONALE="Weryfikacja zawartości pakietu aplikacji w celu zapewnienia poprawności.">
+      <TEST INDEX="63" NAME="Pliki odpowiednie dla platformy" DESCRIPTION="Aplikacja nie powinna instalować plików niezgodnych z docelową architekturą procesora." EXECUTIONTIME="00h:00m:04s.96ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="66" NAME="Sprawdzanie obsługiwanej struktury katalogów" DESCRIPTION="Zweryfikuj każdy plik w pakiecie, dla którego długość nazwy pliku powinna być krótsza niż wartość MAX_PATH." EXECUTIONTIME="00h:00m:02s.33ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="26" TITLE="Obsługa wysokiej rozdzielczości DPI" RATIONALE="Aplikacja musi ustawić rozpoznawanie wartości DPI, aby zapewnić spójny wygląd interfejsu użytkownika dla różnych ustawień wyświetlania w wysokiej rozdzielczości DPI." />
+    <REQUIREMENT NUMBER="27" TITLE="Test użycia zasobów" RATIONALE="Zadania w tle WinJS muszą wywołać element close(), aby zwolnić zasób.">
+      <TEST INDEX="68" NAME="Test zadań w tle WinJS" DESCRIPTION="Zadania w tle WinJS muszą wywołać element close(), aby zwolnić zasób." EXECUTIONTIME="00h:00m:03s.41ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="1266beny.MeteoICM" Type="Application" Source="AppxPackage" Publisher="CN=B50FF6FE-BDF7-4101-92E9-5F685B829B0F" Version="1.1.0.1" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\1266beny.MeteoICM_1.1.0.1_neutral__182g6g8qt0a46" PathEvidenceId="0xa" RNP="0x1" DNP="0xd" EvidenceId="0xa" Id="00001e760fff0647fce6fa429ee8cdca595b00000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="met" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\met" RNP="0x9" DNP="0xb" UniqueId="0x1a" Id="0000f279ca7c14ba5d7aca1aa0d1db6e7ab6267a8dc7" />
+            <Directory Name="settings" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings" RNP="0x9" DNP="0xb" UniqueId="0x1d" Id="0000640f24481574839ab34d85fad829617f870bbf93" />
+            <Directory Name="1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46" RNP="0x9" DNP="0xb" UniqueId="0xb" Id="000068b8062eef4dae59aaf2e985c6e54460197a782a" />
+            <Directory Name="pages" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages" RNP="0x9" DNP="0xb" UniqueId="0x16" Id="000019ff601290dc13568ff4c70ea07fd47a73f13ab3" />
+            <Directory Name="home" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\home" RNP="0x9" DNP="0xb" UniqueId="0x17" Id="00007eb0baafbaaf8336d49e7c3224114d4f05b6a749" />
+            <Directory Name="legend" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings\legend" RNP="0x9" DNP="0xb" UniqueId="0x20" Id="0000b666aad2a408af20f8b91d5d72f86f2c90e7b1bc" />
+            <Directory Name="js" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\js" RNP="0x9" DNP="0xb" UniqueId="0x10" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+          </DirectoryIndicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46">
+              <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+                <Identity Name="1266beny.MeteoICM" Version="1.1.0.1" Publisher="CN=B50FF6FE-BDF7-4101-92E9-5F685B829B0F" ProcessorArchitecture="neutral" />
+                <Properties>
+                  <DisplayName>MeteoICM</DisplayName>
+                  <PublisherDisplayName>beny</PublisherDisplayName>
+                  <Logo>images\storelogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.0</OSMinVersion>
+                  <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="PL-PL" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" StartPage="default.html">
+                    <m2:VisualElements DisplayName="MeteoICM" Description="MeteoICM" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+                      <m2:SplashScreen Image="images\splashscreen.png" />
+                      <m2:InitialRotationPreference>
+                        <m2:Rotation Preference="landscape" />
+                        <m2:Rotation Preference="landscapeFlipped" />
+                      </m2:InitialRotationPreference>
+                    </m2:VisualElements>
+                  </Application>
+                </Applications>
+                <Capabilities>
+                  <Capability Name="internetClient" />
+                </Capabilities>
+                <Dependencies>
+                  <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
+                </Dependencies>
+              </Package>
+            </PackageManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="000008578093262ad4c5059ecb6703214d47d315d905">
+            <File Name="home.html" Id="0000d548abf4a25b1309e92c40a9126aab3c91296c9b" ShortName="HOME~1.HTM" Size="0x547" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\home\home.html" LongPathHash="00002cb8a8070199ed610e5e37ce7fe6ea4f01631ec8" UniqueId="0x18" />
+            <File Name="default.js" Id="00008714802a3fdb21e7ee6aadaeccad06927466c874" Size="0x979" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\js\default.js" LongPathHash="00008202a590f90b2fa6e8b479ae60c90608f82ebcea" UniqueId="0x11" />
+            <File Name="jquery-2.1.1.min.js" Id="000010f69c1b93fb7750902e29eb7c1863ef1de08d9f" ShortName="JQUERY~1.JS" Size="0x14918" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\js\jquery-2.1.1.min.js" LongPathHash="0000d4643a3875a357485e37a75442245d1ce426cd94" UniqueId="0x12" />
+            <File Name="navigator.js" Id="0000e8bd405855b499efc5e7854617d320dc0173ff80" ShortName="NAVIGA~1.JS" Size="0x1530" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\js\navigator.js" LongPathHash="00001b22b115835c55835be99be41ab5dcb41b519c06" UniqueId="0x13" />
+            <File Name="home.js" Id="00006b92c72a464edf9d4d0e69b993eb8a65c5e6dd29" Size="0x29d2" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\home\home.js" LongPathHash="0000b201d0d5a64dc33a83991b8e0351d9e00a11d4b8" UniqueId="0x19" />
+            <File Name="met.html" Id="0000ea3a5a58a38847b42f21856fbeac97b58cb719dd" ShortName="MET~1.HTM" Size="0x491" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\met" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\met\met.html" LongPathHash="00008eab76ad9df6a977b1809371fe53721f80cd8535" UniqueId="0x1b" />
+            <File Name="met.js" Id="00003da3ec417a4c9b349a155fe51fd1b681de9b2fe7" Size="0xdda" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\met" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\met\met.js" LongPathHash="0000c92d57b2c84a8a2f2535fd28a095046dfb5214ac" UniqueId="0x1c" />
+            <File Name="default.html" Id="000020a262bf8299ee8e84f59a95d82550c01ec9ee35" ShortName="DEFAUL~1.HTM" Size="0x3c1" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:19" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\default.html" LongPathHash="0000fe72328e783ce02b5492a5b25ff9a6b385d2c342" UniqueId="0xc" />
+            <File Name="about.js" Id="00002e57121305738d8ce6b6a98aa9241a638c1c1eb3" Size="0x262" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings\about.js" LongPathHash="0000e1209d20cb0ebcd94e2d4ca8bf06b7376a565a5d" UniqueId="0x1f" />
+            <File Name="resources.pri" Id="000077bdef93bda8ed87e11c427144a0998f1c122c4c" ShortName="RESOUR~1.PRI" Size="0x1188" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\resources.pri" LongPathHash="0000df9c33a15160b4f1a1230039d3438e1cf3f8c47b" UniqueId="0xd" />
+            <File Name="about.html" Id="00009ae05958373916ad397f8e8fc0e3fb49dd4858fb" ShortName="ABOUT~1.HTM" Size="0x3b3" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings\about.html" LongPathHash="0000caafa520ebce21fdfc32dd6db8268641d86d9f54" UniqueId="0x1e" />
+            <File Name="legend.html" Id="00006996433774ce7bd056c372effb47f733524e3218" ShortName="LEGEND~1.HTM" Size="0x3c3" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings\legend" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings\legend\legend.html" LongPathHash="0000c1439c8c500e40f08d3566648831ca5acec2c315" UniqueId="0x21" />
+            <File Name="legend.js" Id="0000c3e38f22ee87dd30d1169e08957baba4f1290455" Size="0x3cc" BinaryType="UNKNOWN" Created="05/11/2014 17:56:19" Modified="05/11/2014 17:56:20" Path="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings\legend" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\1266beny.meteoicm_1.1.0.1_neutral__182g6g8qt0a46\pages\settings\legend\legend.js" LongPathHash="0000ae5758f83c1b39c4628b58559ca118035093e104" UniqueId="0x22" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="00001e760fff0647fce6fa429ee8cdca595b00000904" AnalysisVersion="1.60" DictionaryVersion="2.16" Type="Package" Id="1266beny.MeteoICM_1.1.0.1_neutral__182g6g8qt0a46">
+      <AitFile ErrorCode="0" Name="jquery-2.1.1.min.js" Id="000010f69c1b93fb7750902e29eb7c1863ef1de08d9f" />
+      <AitFile ErrorCode="0" Name="default.html" Id="000020a262bf8299ee8e84f59a95d82550c01ec9ee35">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.AppBarCommand" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="about.js" Id="00002e57121305738d8ce6b6a98aa9241a638c1c1eb3">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="document.getElementById" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="met.js" Id="00003da3ec417a4c9b349a155fe51fd1b681de9b2fe7">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="window.toStaticHTML" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="legend.html" Id="00006996433774ce7bd056c372effb47f733524e3218">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+          <AitFeature Name="WinJS.UI.ToggleSwitch" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="home.js" Id="00006b92c72a464edf9d4d0e69b993eb8a65c5e6dd29">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Navigation.navigate" />
+          <AitFeature Name="WinJS.UI.Pages.define" />
+          <AitFeature Name="Windows.Networking.Connectivity.NetworkInformation" />
+          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="window.location.reload" />
+          <AitFeature Name="window.toStaticHTML" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.js" Id="00008714802a3fdb21e7ee6aadaeccad06927466c874">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.populateSettings" />
+          <AitFeature Name="WinJS.Utilities.Scheduler" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="about.html" Id="00009ae05958373916ad397f8e8fc0e3fb49dd4858fb">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="legend.js" Id="0000c3e38f22ee87dd30d1169e08957baba4f1290455">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current" />
+          <AitFeature Name="document.getElementById" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="home.html" Id="0000d548abf4a25b1309e92c40a9126aab3c91296c9b">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.BackButton" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="navigator.js" Id="0000e8bd405855b499efc5e7854617d320dc0173ff80">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.Promise.as" />
+          <AitFeature Name="WinJS.UI.Animation.enterPage" />
+          <AitFeature Name="WinJS.UI.Pages.render" />
+          <AitFeature Name="WinJS.Utilities.disposeSubTree" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="window.getComputedStyle" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="met.html" Id="0000ea3a5a58a38847b42f21856fbeac97b58cb719dd">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.BackButton" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

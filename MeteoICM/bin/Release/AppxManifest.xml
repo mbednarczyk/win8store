@@ -7,10 +7,10 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="d01da8ed-9f42-4ccb-b8f6-376464ddd969" Version="1.0.0.0" Publisher="CN=Marek" ProcessorArchitecture="neutral" />
+  <Identity Name="1266beny.MeteoICM" Version="1.1.0.1" Publisher="CN=B50FF6FE-BDF7-4101-92E9-5F685B829B0F" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>MeteoICMtotest</DisplayName>
-    <PublisherDisplayName>Marek</PublisherDisplayName>
+    <DisplayName>MeteoICM</DisplayName>
+    <PublisherDisplayName>beny</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <m2:VisualElements DisplayName="MeteoICM-totest" Description="MeteoICM" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+      <m2:VisualElements DisplayName="MeteoICM" Description="MeteoICM" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
         <m2:SplashScreen Image="images\splashscreen.png" />
         <m2:InitialRotationPreference>
           <m2:Rotation Preference="landscape" />

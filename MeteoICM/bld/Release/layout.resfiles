@@ -1,5 +1,9 @@
 css\default.css
 default.html
+images\150x150.png
+images\30x30.png
+images\50x50.png
+images\620x300.png
 images\legendaUM.png
 images\logo.scale-100.png
 images\smalllogo.scale-100.png
@@ -15,3 +19,9 @@ pages\home\home.js
 pages\met\met.css
 pages\met\met.html
 pages\met\met.js
+pages\settings\about.css
+pages\settings\about.html
+pages\settings\about.js
+pages\settings\legend\legend.css
+pages\settings\legend\legend.html
+pages\settings\legend\legend.js

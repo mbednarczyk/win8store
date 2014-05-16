@@ -49,13 +49,20 @@
     <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <DefaultLanguage>pl-pl</DefaultLanguage>
-    <PackageCertificateKeyFile>MeteoICM_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>MeteoICM_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>9441A04FD50E5930A81F53D4B2F7B9CD148BE820</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+    <Content Include="images\150x150.png" />
+    <Content Include="images\30x30.png" />
+    <Content Include="images\50x50.png" />
+    <Content Include="images\620x300.png" />
     <Content Include="images\legendaUM.png" />
     <Content Include="images\logo.scale-100.png" />
     <Content Include="images\smalllogo.scale-100.png" />
@@ -65,6 +72,8 @@
     <Content Include="js\default.js" />
     <Content Include="js\jquery-2.1.1.min.js" />
     <Content Include="js\navigator.js" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="MeteoICM_StoreKey.pfx" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
@@ -72,6 +81,9 @@
     <Content Include="pages\met\met.css" />
     <Content Include="pages\met\met.html" />
     <Content Include="pages\met\met.js" />
+    <Content Include="pages\settings\about.css" />
+    <Content Include="pages\settings\about.html" />
+    <Content Include="pages\settings\about.js" />
     <Content Include="pages\settings\legend\legend.css" />
     <Content Include="pages\settings\legend\legend.html" />
     <Content Include="pages\settings\legend\legend.js" />
